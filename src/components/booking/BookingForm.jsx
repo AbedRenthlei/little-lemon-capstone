@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./BookingForm.css";
 
 export default function ReservationForm() {
+  const navigate = useNavigate();
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
   const [email, setEmail] = useState("");
@@ -83,6 +85,7 @@ export default function ReservationForm() {
 
     if (isValid) {
       console.log("Form submitted successfully!");
+      navigate("/confirmed");
     } else {
       console.log("Form validation failed!");
     }
@@ -211,7 +214,9 @@ export default function ReservationForm() {
       </div>
 
       <div>
-        <button type="submit" className="action-button">Book Table</button>
+        <button type="submit" className="action-button">
+          Book Table
+        </button>
       </div>
     </form>
   );
