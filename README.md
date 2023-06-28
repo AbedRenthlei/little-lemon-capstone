@@ -1,4 +1,5 @@
 <h1>Little Lemon</h1>
+<p><a href="https://github.com/AbedRenthlei"><strong>Abednago Renthlei</strong></a>
 <p>Coursera's Meta Front-End Capstone Project. Responsive React site with a working table booking functionality.</p>
 <br/>
 
