@@ -6,9 +6,9 @@ import Confirmed from './pages/confirmed';
 export default function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/booking" element={<BookingPage />} />
-      <Route path="/confirmed" element={<Confirmed />} />
+      <Route path="/little-lemon-capstone/" element={<HomePage />} />
+      <Route path="/little-lemon-capstone/booking" element={<BookingPage />} />
+      <Route path="/little-lemon-capstone/confirmed" element={<Confirmed />} />
     </Routes>
   );
 }
