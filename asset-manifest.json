@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/little-lemon-capstone/static/css/main.d61a50a7.css",
+    "main.js": "/little-lemon-capstone/static/js/main.36ff9538.js",
+    "static/media/marioAdrien.jpg": "/little-lemon-capstone/static/media/marioAdrien.fe15b476c9392bbec2f0.jpg",
+    "static/media/greeksalad.png": "/little-lemon-capstone/static/media/greeksalad.0da29723de090abdf871.png",
+    "static/media/chef.jpg": "/little-lemon-capstone/static/media/chef.aa018603fe0fe3729268.jpg",
+    "static/media/lemonade.gif": "/little-lemon-capstone/static/media/lemonade.78f711b7ac591143d2a5.gif",
+    "static/media/JeanHu.png": "/little-lemon-capstone/static/media/JeanHu.943d664665d0efa37ab8.png",
+    "static/media/bruscheta.png": "/little-lemon-capstone/static/media/bruscheta.29b8c312bcffe3a9a0ff.png",
+    "static/media/CaseyLau.png": "/little-lemon-capstone/static/media/CaseyLau.a9a25a9a725e6e12e2c5.png",
+    "static/media/AlanChen.png": "/little-lemon-capstone/static/media/AlanChen.791214d091a4bf7687d5.png",
+    "static/media/MichealCaldwell.png": "/little-lemon-capstone/static/media/MichealCaldwell.a491cc4b5470c25c9761.png",
+    "static/media/footer-logo.png": "/little-lemon-capstone/static/media/footer-logo.4470f9c9e815da98dbb3.png",
+    "static/media/logo.png": "/little-lemon-capstone/static/media/logo.7cc50da23489dacb677b.png",
+    "index.html": "/little-lemon-capstone/index.html",
+    "main.d61a50a7.css.map": "/little-lemon-capstone/static/css/main.d61a50a7.css.map",
+    "main.36ff9538.js.map": "/little-lemon-capstone/static/js/main.36ff9538.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d61a50a7.css",
+    "static/js/main.36ff9538.js"
+  ]
+}
