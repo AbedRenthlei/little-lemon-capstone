@@ -1,7 +1,7 @@
-import { Routes, Route } from 'react-router-dom';
-import BookingPage from './pages/bookingPage';
-import HomePage from './pages/HomePage';
-import Confirmed from './pages/confirmed';
+import { Route, Routes } from 'react-router-dom';
+import BookingPage from '../pages/BookingPage';
+import HomePage from '../pages/HomePage';
+import Confirmed from '../pages/Confirmed';
 
 export default function AppRoutes() {
   return (

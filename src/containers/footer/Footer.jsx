@@ -14,22 +14,22 @@ export default function Footer() {
           <p className="footer__column-title">Navigation</p>
           <ul className="footer__links">
             <li>
-              <Link to="/little-lemon-capstone/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/little-lemon-capstone/about">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/little-lemon-capstone/menu">Menu</Link>
+              <Link to="/menu">Menu</Link>
             </li>
             <li>
-              <Link to="/little-lemon-capstone/booking">Reservations</Link>
+              <Link to="/booking">Reservations</Link>
             </li>
             <li>
-              <Link to="/little-lemon-capstone/order">Order Online</Link>
+              <Link to="/order">Order Online</Link>
             </li>
             <li>
-              <Link to="/little-lemon-capstone/login">Login</Link>
+              <Link to="/login">Login</Link>
             </li>
           </ul>
         </div>
