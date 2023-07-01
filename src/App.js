@@ -22,7 +22,7 @@ function MainContent() {
 
   return (
     <>
-      {location.pathname === '/' ? (
+      {location.pathname === '/' || location.pathname === '/little-lemon-capstone/' ? (
         <>
           <div className="colored__bg">
             <Header />
