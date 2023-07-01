@@ -17,19 +17,19 @@ export default function Footer() {
               <Link to="/little-lemon-capstone/">Home</Link>
             </li>
             <li>
-              <a href="/about">About</a>
+              <Link to="/little-lemon-capstone/about">About</Link>
             </li>
             <li>
-              <Link to="/menu">Menu</Link>
+              <Link to="/little-lemon-capstone/menu">Menu</Link>
             </li>
             <li>
-              <Link to="/booking">Reservations</Link>
+              <Link to="/little-lemon-capstone/booking">Reservations</Link>
             </li>
             <li>
-              <Link to="/order">Order Online</Link>
+              <Link to="/little-lemon-capstone/order">Order Online</Link>
             </li>
             <li>
-              <Link to="/login">Login</Link>
+              <Link to="/little-lemon-capstone/login">Login</Link>
             </li>
           </ul>
         </div>
@@ -69,10 +69,7 @@ export default function Footer() {
             </a>
           </ul>
         </div>
-
       </address>
-
     </footer>
-
   );
 }
