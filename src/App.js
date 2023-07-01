@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/little-lemon-capstone">
+    <Router>
       <div className="App">
         <Navbar />
         <MainContent />
