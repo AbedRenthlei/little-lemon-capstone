@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
   <>
-    <p><Link to="/">Home</Link></p>
-    <p><Link to="/about">About</Link></p>
-    <p><Link to="/menu">Menu</Link></p>
-    <p><Link to="/booking">Reservations</Link></p>
-    <p><Link to="/order">Order Online</Link></p>
-    <p><Link to="/login">Login</Link></p>
+    <p><Link to="/little-lemon-capstone/">Home</Link></p>
+    <p><Link to="/little-lemon-capstone/about">About</Link></p>
+    <p><Link to="/little-lemon-capstone/menu">Menu</Link></p>
+    <p><Link to="/little-lemon-capstone/booking">Reservations</Link></p>
+    <p><Link to="/little-lemon-capstone/order-online">Order Online</Link></p>
+    <p><Link to="/little-lemon-capstone/login">Login</Link></p>
   </>
 );
 
