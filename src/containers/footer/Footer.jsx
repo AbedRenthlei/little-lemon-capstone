@@ -14,7 +14,7 @@ export default function Footer() {
           <p className="footer__column-title">Navigation</p>
           <ul className="footer__links">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/little-lemon-capstone/">Home</Link>
             </li>
             <li>
               <a href="/about">About</a>

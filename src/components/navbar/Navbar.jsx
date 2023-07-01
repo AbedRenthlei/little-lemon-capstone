@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Menu = () => (
   <>
-    <p><Link to="/">Home</Link></p>
+    <p><Link to="/little-lemon-capstone/">Home</Link></p>
     <p><Link to="/about">About</Link></p>
     <p><Link to="/menu">Menu</Link></p>
     <p><Link to="/booking">Reservations</Link></p>
