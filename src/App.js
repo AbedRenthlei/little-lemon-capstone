@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, useLocation } from 'react-router-dom';
 import AppRoutes from './components/routing';
-
 import { Footer, Header, Specials, Testimonials } from './containers';
 import { About, Navbar } from './components';
 import './App.css';
@@ -33,7 +32,7 @@ function MainContent() {
           <About />
         </>
       ) : (
-        <AppRoutes />   
+        <AppRoutes />
       )}
     </>
   );
