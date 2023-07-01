@@ -85,7 +85,7 @@ export default function ReservationForm() {
 
     if (isValid) {
       console.log("Form submitted successfully!");
-      navigate("/confirmed");
+      navigate("/little-lemon-capstone/confirmed");
     } else {
       console.log("Form validation failed!");
     }

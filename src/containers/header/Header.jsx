@@ -11,7 +11,7 @@ const Header = () => {
         <h2 className='header_text-city'>Chicago</h2>
         <p>We are a family owned Mediterranean restaurant, located on Maldove Street in Chicago, Illinois. We focus on traditional recipes served with a modern twist.</p>
         
-        <Link to="/booking" className='litlem_header-content__button'>
+        <Link to="/little-lemon-capstone/booking" className='litlem_header-content__button'>
           <button type='button'>Reserve a Table</button>
         </Link>
       </div>
