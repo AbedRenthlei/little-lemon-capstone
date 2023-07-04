@@ -5,19 +5,17 @@ import { Footer, Header, Specials, Testimonials } from './containers';
 import { About, Navbar } from './components';
 import './App.css';
 
-function App() {
-  return (
-    <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <MainContent />
-        <Footer />
-      </div>
-    </BrowserRouter>
-  );
-}
+const App = () => (
+  <BrowserRouter>
+    <div className="App">
+      <Navbar />
+      <MainContent />
+      <Footer />
+    </div>
+  </BrowserRouter>
+);
 
-function MainContent() {
+const MainContent = () => {
   const location = useLocation();
 
   return (
@@ -36,6 +34,6 @@ function MainContent() {
       )}
     </>
   );
-}
+};
 
 export default App;
